@@ -61,3 +61,5 @@ console.log(typeof(name));
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.toString());
 console.log(fruits);
+
+
