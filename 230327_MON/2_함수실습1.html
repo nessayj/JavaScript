@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기 만들기</title>
+    <!--
+        * input 태그로 숫자 입력 받기 (10) let firtstNum = document.getElementById("num1").value;
+        * select 콤보박스로 사칙연산 선택하기 (+, -, *, /) let op = document.getElementById("operator").value;
+        * input 태그로 두 번째 숫자 입력 받기 (20) let secondNum = document.getElementById("num2").value;
+        * 계산 버튼을 만들기 : html에서 자바스크립트 함수 호출 
+        * <button onclick="함수명()"> 계산 </button>
+    -->
+</head>
+<body> 
+    <input type="number" id="num1">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="num2">
+    <button onclick="calculate()">계산</button>
+    <br><br>
+    <p id="result"></p>
+    
+    <script src="./2_함수실습1.js"></script>
+</body>
+</html>
