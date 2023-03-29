@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 100px;
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            border-radius: 40px;
+            background-color: rgb(211, 241, 151);
+        }
+        label {
+            font-size: 40px;
+            font-weight: bold;
+            color: brown;
+            text-shadow: 1px 1px yellow;
+        }
+        input {
+            border-radius: 20px;
+            width: 150px;
+            height: 50px;
+        }
+        p {
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(114, 4, 114);
+        }
+        span {
+            font-size: 30px;
+            font-weight: bold;
+            color: red;
+            text-shadow: 1px 2px dotted white;
+        }
+        .congra {
+            font-size: 32px;
+            font-weight: bold;
+            color: fuchsia;
+            text-shadow: 3px 3px yellow;
+        }
+    </style>
+</head>
+<body>
+    <label for="howMany">☆응모자 수★</label>
+    <input type="number" id="number" onchange="pick()"> <!--onchange는 enter만 치면 바뀌는 이벤트-->
+    
+   <p>☆응모자 수★ <span id="howMany"></span>명</p>
+   <p>♥당첨자 수♡ <span id="picked"></span>명</p> 
+   <p class="congra"> 추카추카츄~~~~~ *>_<*</p>
+
+    <script src="./2_랜덤응모.js"></script>
+</body>
+</html>
