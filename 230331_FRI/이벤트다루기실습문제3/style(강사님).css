@@ -1,0 +1,27 @@
+#item {
+    position: relative;
+    width: 500px;
+    height: auto;
+    padding: 15px 20px;
+    margin: auto; /* 상하좌우 모두 정중앙 */
+}
+
+button {
+    background-color: rgba(255, 255, 255, alpha); /* 반투명을 주기위해 alpha값이 필요 */ 
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.8em;
+}
+
+.over {
+    position: absolute; /* 부모기준으로 위치옮김 */
+    left: 30px;
+    bottom: 30px;
+}
+
+.detail {
+    width: 400px;
+    text-align: left;
+    line-height: 1.8;
+    display: none;
+}

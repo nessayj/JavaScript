@@ -1,0 +1,36 @@
+.buttonContainer {
+    padding: 20px;
+    margin: 50px;
+    float: left;
+    text-align: center;
+}
+
+#green {
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    border: none;
+}
+
+#orange {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    border: none;
+}
+
+#purple {
+    width: 150px;
+    height: 40px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    border: none;
+}

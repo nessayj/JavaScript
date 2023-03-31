@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+#continer {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 370px;
+    float: left;
+    height: 30px;
+    padding-left: 30px;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    float: right;
+    background-color: rgb(238, 206, 211);
+    color: purple;
+    border: none;
+}
+
+/* hr {
+    clear: both;
+} */
+
+ul {
+    list-style: none;
+    padding-top: 50px;
+}
+
+li {
+    line-height: 2.5; /* 폰트 크기의 2.5배 */
+}
+
+li:hover {
+    cursor: pointer; /* 마우스를 가져다 대면 손가락 모양으로 변함 */
+}
