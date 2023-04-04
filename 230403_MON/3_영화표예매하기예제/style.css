@@ -1,0 +1,21 @@
+.seat {
+    display: inline-block; 
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: center; /* 수직 정렬 */
+    line-height: 40px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.booked {
+    background-color: red;
+    cursor: not-allowed; /* 커서 선택 안됨 */
+}
+
+.menu { 
+    margin-top: 10px;
+}
