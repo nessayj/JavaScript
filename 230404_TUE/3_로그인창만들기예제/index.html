@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>로그인창 만들기</title>
+</head>
+<body>
+    <div class="container">
+        <span>
+            <input type="text" id="idInput" placeholder="아이디를 입력하세요.">
+            <button id="idBtn" onclick="idCheck()">확인</button>
+        </span>
+        <p id="idWarn"></p>
+        <span>
+            <input type="password" id="pwInput" placeholder="비밀번호를 입력하세요.">
+            <button id="pwBtn" onclick="pwCheck()">확인</button>
+        </span>
+        <p id="pwWarn"></p>
+        <span> 
+            <input type="text" id="emailInput" placeholder="이메일을 입력하세요.">
+            <button id="emailBtn" onclick="emailCheck()">확인</button>
+        </span>
+        <p id="emailWarn"></p>
+        <span>
+            <input type="text" id="telInput" placeholder="전화번호를 입력하세요.">
+            <button id="telBtn" onclick="telCheck()">확인</button>
+        </span> 
+        <p id="telWarn"></p>
+        <button id="checkBtn" onchange="signIn()">가입 요청</button>
+        <script src="./script.js"></script>
+    </div>
+    
+</body>
+</html>
